@@ -1,6 +1,7 @@
 import ImageSlider from "@/Components/ImageSlider";
 import RotatingText from "@/Components/RotatingText";
 import Cards from "@/Components/Cards";
+import SocialSection from "@/Components/SocialSection";
 const Home = () => {
   return (
     <div className="w-screen">
@@ -38,6 +39,9 @@ const Home = () => {
       </section>
       <section>
         <Cards />
+      </section>
+      <section>
+        <SocialSection />
       </section>
     </div>
   );
